@@ -6,13 +6,11 @@ import bodyParser from 'body-parser';
 import productRoute from './routes/productRoutes.js'
 import userRoute from './routes/userRoute.js'
 import orderRoute from './routes/orderRoute.js'
-import path from 'path'
+
 
 // app config
-const port = process.env.port || 5000;
 const app = express();
-
-
+const port = process.env.PORT || 5000;
 
 
 // middleware
